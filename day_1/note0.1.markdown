@@ -211,13 +211,13 @@
 
 ##去除标题栏的两种方法
 
-1. 在代码中实现：
+- 在代码中实现：
 
 
 在此方法setContentView（R.layout.main）之前加入：
 requestWindowFeature(Window.FEATURE_NO_TITLE);标题栏就没有了。
 
-2. 在AndroidManifest.xml中实现：
+- 在AndroidManifest.xml中实现：
 注册Activity时加上如下的一句配置就可以实现。
 
 
